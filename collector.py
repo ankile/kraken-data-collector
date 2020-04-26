@@ -50,5 +50,7 @@ while True:
 
 
             time.sleep(1)
+    
     print(f"Sleeping for an hour starting at {datetime.now()}")
     time.sleep(3600)
+    print(f"Done sleeping at {datetime.now()}")
